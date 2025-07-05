@@ -35,7 +35,7 @@ bm25_k1 = 1.5
 bm25_b = 0.75
 top_k = 5
 
-model_name = "google/flan-t5-base"
+model_name = "google/flan-t5-small"
 
 def preprocess_document(file_path):
     if not os.path.exists(file_path):
