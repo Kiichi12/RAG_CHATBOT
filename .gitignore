@@ -1,0 +1,116 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#old backend
+app.py
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+.nyc_output/
+lib-cov/
+build/Release
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache
+*.egg-info/
+.eggs/
+*.egg
+
+# Python distribution/packaging
+.Python
+develop-eggs/
+downloads/
+sdist/
+wheels/
+parts/
+var/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# OS generated files
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Misc
+*.tgz
+.yarn-integrity
+.eslintcache
+node_repl_history
+.pnp
+.pnp.js
+htmlcov/
+docs/_build/
+site
+.spyderproject
+.spyproject
+.ropeproject
+celerybeat-schedule.*
+*.mo
+*.pot
+*.sage.py

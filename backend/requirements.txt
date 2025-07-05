@@ -1,0 +1,12 @@
+flask
+flask-cors
+torch
+transformers
+sentence-transformers
+faiss-cpu
+rank_bm25
+scikit-learn
+gunicorn
+nltk
+numpy
+pydantic
