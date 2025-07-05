@@ -220,6 +220,10 @@ def generate():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/')
+def home():
+    return 'OK'
+
 if __name__ == "__main__":
-    app.run(debug=True, port = int(os.getenv("backend-port", 5000)))  # Use environment variable or default to 5000
+    app.run(debug=True, port = int(os.getenv("PORT", 5000)))  # Use environment variable or default to 5000
 
