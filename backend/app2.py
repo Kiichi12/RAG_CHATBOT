@@ -221,5 +221,5 @@ def generate():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port = .env.get("backend-port", 5000))  # Use the port from the .env file or default to 5000
+    app.run(debug=True, port = int(os.getenv("backend-port", 5000)))  # Use environment variable or default to 5000
 
