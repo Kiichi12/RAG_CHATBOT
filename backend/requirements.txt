@@ -10,3 +10,12 @@ gunicorn
 nltk
 numpy
 pydantic
+flask
+flask_cors
+transformers==4.41.0
+sentence-transformers==2.7.0
+rank_bm25==0.2.2
+nltk==3.8.1
+numpy==1.26.4
+torch==2.2.2
+requests
